@@ -14,8 +14,8 @@ body {
 }
 
 .skill-icon {
-	height: 70px;
-	width: 70px;
+	height: 54px;
+	width: 54px;
 }
 
 section {
@@ -33,6 +33,10 @@ header {
 	border-radius: 50%;
 	box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.5);
 	height: 150px;
+}
+
+.profile-info {
+	max-width: 850px;
 }
 
 .profile-info > * {
@@ -159,16 +163,37 @@ header {
 }
 
 .project-tools {
-	margin-top: 50px;
+	margin-top: 20px;
 	display: flex;
-	justify-content: center;
 }
 
 .project-tools svg {
-	margin: 0 20px;
+	margin: 0 10px;
 }
 
-/* TOOLS */
+.icon-container {
+	height: 54px;
+	width: 54px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 10px;
+}
+
+.icon-container img {
+	width: 75%;
+	height: auto;
+}
+
+.enlarge {
+
+}
+
+.enlarge img {
+	width: 100%;
+	height: auto;
+}
+
+/* SKILLS */
 
 .tools {
 	background: #F5F5F5;
@@ -202,6 +227,10 @@ header {
 
 .tools-col svg {
 	margin: 10px;
+}
+
+.tools-col ul {
+	list-style: none;
 }
 
 /* MEDIA QUERIES */
