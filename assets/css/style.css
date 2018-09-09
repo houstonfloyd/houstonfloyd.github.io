@@ -14,8 +14,8 @@ body {
 }
 
 .skill-icon {
-	height: 54px;
-	width: 54px;
+	height: 50px;
+	width: 50px;
 }
 
 section {
@@ -30,9 +30,9 @@ header {
 }
 
 .profile-pic {
-	border-radius: 50%;
+	border-radius: 5%;
 	box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.5);
-	height: 150px;
+	height: 200px;
 }
 
 .profile-info {
@@ -172,8 +172,8 @@ header {
 }
 
 .icon-container {
-	height: 54px;
-	width: 54px;
+	height: 50px;
+	width: 50px;
 	text-align: center;
 	vertical-align: middle;
 	margin: 0 10px;
